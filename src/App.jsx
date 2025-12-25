@@ -1,8 +1,8 @@
-import React from "react"
+import Navbar from "./components/layout/Navbar"
 const App = () => {
   return (
-    <div className="bg-amber-200">
-   
+    <div>
+    <Navbar/>
     </div>
   )
 }
