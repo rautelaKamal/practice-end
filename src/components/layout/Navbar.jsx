@@ -2,7 +2,8 @@
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between px-24 py-5 ">
+     <div className="w-full">
+    <div className="mx-6 flex justify-between px-6 py-5 md:px-12 " >
       <div className="">
         kartik
       </div>
@@ -19,6 +20,7 @@ const Navbar = () => {
         light switch
       </div>
 </div>
+    </div>
     </div>
   )
 }
